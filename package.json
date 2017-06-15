@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "lerna": "^2.0.0-rc.5"
+  },
+  "scripts" : {
+    "start" : "cd packages/composer-sample-app &&  DEBUG=* npm start"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+
+  "composer-sample-app" : {
+     "participantId" : "admin",
+     "participantPwd" :"adminpw",
+     "businessNetworkIdentifier" : "sample-network",
+     "connectionProfile" : "hlfv1"
+  }
+}

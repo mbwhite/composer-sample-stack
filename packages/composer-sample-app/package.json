@@ -1,0 +1,28 @@
+{
+  "name": "composer-sample-app",
+  "version": "0.0.1",
+  "description": "The Hello World of Hyperledger Composer apps",
+  "author": "Hyperledger Composer",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf logs && DEBUG=* node index.js"
+  },
+  "keywords": [
+    "Blockchain",
+    "Solutions",
+    "Framework",
+    "getting-started",
+    "Hyperledger Composer"
+  ],
+  "license": "Apache2",
+  "dependencies": {
+    "cli-table": "latest",
+    "config": "^1.21.0",
+    "prettyoutput": "^1.1.1",
+    "sample-network": "latest",
+    "shelljs": "^0.7.5",
+    "uuid": "^3.0.1",
+    "winston": "^2.2.0",
+    "yargs": "^6.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+namespace org.acme.biznet.core
+
+abstract asset CoreAsset identified by ida {
+  o String ida
+  o String coreAssetNote
+}

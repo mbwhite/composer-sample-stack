@@ -1,0 +1,23 @@
+{
+  "name": "sample-network",
+  "version": "0.0.1",
+  "description": "The Hello World of Hyperledger Composer",
+  "scripts": {
+    "buildBNA": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/sample-network.bna",
+    "updateArchive" : "composer network update -p hlfv1 -i admin -s adminpw -a ./dist/sample-network.bna",
+    "test": "mocha --recursive"
+  },
+  "author": "Hyperledger Composer",
+  "license": "Apache-2",
+  "devDependencies": {
+    "browserfs": "latest",
+    "chai": "latest",
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-connector-embedded": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "^0.5.1",
+    "mocha": "latest"
+  }
+}
